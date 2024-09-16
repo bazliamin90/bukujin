@@ -221,6 +221,8 @@ td{
   box-shadow: 0.1rem 0.1rem black;
   text-decoration: none;
   opacity: 0.4;
+  border-bottom-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
 }
 
 .nexar {
@@ -254,7 +256,7 @@ td{
             margin-top: 20px;
         }
         #image-container img {
-            max-width: 90%;
+            max-width: 95%;
             height: auto;
             border: 2px solid lightgrey;
             border-radius: 10px;
@@ -372,6 +374,10 @@ td.dash {
   padding: 0.05rem 0.5rem;
 }
 
+.home:hover{
+	background-color: red;
+}
+
 #next-button {
   width: 40px;
   height: 30px;
@@ -387,6 +393,11 @@ td.dash {
   border-bottom-left-radius: 0.4rem;
   text-decoration: none;
   margin-right: -5px;
+}
+
+#next-button:hover{
+	color: white;
+	background-color: red;
 }
 
 #previous-button {
@@ -405,4 +416,15 @@ td.dash {
   text-decoration: none;
   margin-left: -5px;
   transform: scaleX(-1);
+}
+
+#previous-button:hover{
+	color: white;
+	background-color: red;
+}
+
+#image-selector{
+	border-bottom-right-radius: 0.4rem;
+	border-top-left-radius: 0.4rem;
+	padding: 0.4rem;
 }
