@@ -396,7 +396,7 @@ td.dash {
   margin-right: -5px;
 }
 
-#next-button:hover{
+_#next-button:hover{
 	color: white;
 	background-color: red;
 	animation: hoverEffect 2s forwards;
