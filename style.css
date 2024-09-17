@@ -398,6 +398,7 @@ td.dash {
   border-bottom-left-radius: 0.4rem;
   text-decoration: none;
   margin-right: -5px;
+  cursor: pointer;
 }
 
 #next-button:active {
@@ -421,6 +422,7 @@ td.dash {
   text-decoration: none;
   margin-left: -5px;
   transform: scaleX(-1);
+  cursor: pointer;
 }
 
 #previous-button:active {
