@@ -376,6 +376,7 @@ td.dash {
 
 .home:hover{
 	background-color: red;
+	animation: hoverEffect 5s forwards;
 }
 
 #next-button {
@@ -398,6 +399,18 @@ td.dash {
 #next-button:hover{
 	color: white;
 	background-color: red;
+	animation: hoverEffect 5s forwards;
+}
+
+@keyframes hoverEffect {
+    0% {
+        color: white;
+        background-color: red;
+    }
+    100% {
+        color: black;
+        background-color: white;
+    }
 }
 
 #previous-button {
@@ -421,6 +434,7 @@ td.dash {
 #previous-button:hover{
 	color: white;
 	background-color: red;
+	animation: hoverEffect 5s forwards;
 }
 
 #image-selector{
