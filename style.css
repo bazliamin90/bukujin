@@ -225,6 +225,11 @@ td{
   border-top-left-radius: 0.4rem;
 }
 
+.stt:active {
+  color: yellow;
+  background-color: purple;
+}
+
 .nexar {
   position: fixed;
   bottom: 50%;
@@ -374,9 +379,8 @@ td.dash {
   padding: 0.05rem 0.5rem;
 }
 
-.home:hover{
-	background-color: red;
-	animation: hoverEffect 2s forwards;
+.home:active {
+  background-color: purple;
 }
 
 #next-button {
@@ -396,26 +400,9 @@ td.dash {
   margin-right: -5px;
 }
 
-_#next-button:hover{
-	color: white;
-	background-color: red;
-	animation: hoverEffect 2s forwards;
-}
-
 #next-button:active {
   color: yellow;
   background-color: purple;
-}
-
-@keyframes hoverEffect {
-    0% {
-        color: white;
-        background-color: red;
-    }
-    100% {
-        color: black;
-        background-color: white;
-    }
 }
 
 #previous-button {
@@ -436,10 +423,9 @@ _#next-button:hover{
   transform: scaleX(-1);
 }
 
-#previous-button:hover{
-	color: white;
-	background-color: red;
-	animation: hoverEffect 2s forwards;
+#previous-button:active {
+  color: yellow;
+  background-color: purple;
 }
 
 #image-selector{
