@@ -376,7 +376,7 @@ td.dash {
 
 .home:hover{
 	background-color: red;
-	animation: hoverEffect 5s forwards;
+	animation: hoverEffect 2s forwards;
 }
 
 #next-button {
@@ -399,7 +399,12 @@ td.dash {
 #next-button:hover{
 	color: white;
 	background-color: red;
-	animation: hoverEffect 5s forwards;
+	animation: hoverEffect 2s forwards;
+}
+
+#next-button:active {
+  color: yellow;
+  background-color: purple;
 }
 
 @keyframes hoverEffect {
@@ -434,7 +439,7 @@ td.dash {
 #previous-button:hover{
 	color: white;
 	background-color: red;
-	animation: hoverEffect 5s forwards;
+	animation: hoverEffect 2s forwards;
 }
 
 #image-selector{
